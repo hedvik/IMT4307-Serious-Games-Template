@@ -1,75 +1,22 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 
-\title{Template for Report \\IMT4307 Serious Games}
-\author{Simon McCallum}
+\title{Report \\IMT4307 Serious Games}
+\author{Andreas Wang}
 \date{May 2018}
 
 \begin{document}
 
 \maketitle
 
-\section{Introduction}
-This template includes the bibtex references to all the articles presented in the course IMT4307.
-
-You will need to add your own in your report.
-
-\section{Background}
-
-This is the background to the general area.
-
-\section{Reviewed papers}
-
-In the specific papers you presented you should discuss and review the good aspects and limitations of the papers.
-
-\subsection{Math Education}
-The first student lead session presented two papers, the first on the numbers game~\cite{maas2017cognitive}, and the second on dragon box~\cite{siew2016students}.  Dragon box is developed in Norway and has been studies in the Norway and the US as an example of good maths based games. 
-
-Thw two papers had plenty of flaws which the students found.  The major ones that might not be obvious on casual reading were that the Maas paper has significant undisclosed conflict of interest, as the author is founder of the company providing the educational game. The Siew paper makes bold assertions about changing education systems from a single group of students that we hand picked. Significant issues around repeat-ability as there is not enough information in the paper to be able to test that same procedure a second time. 
-
-The Siew paper also introduced the RETAIN model for evaluating the quality of an educational intervention
-
-\subsection{Programming Education}
-The programming session should be interesting to most of the Applied Computer Science Masters students. 
-
-The two papers reviewed are on using the Coding Game~\cite{butt2016} and a bespoke game designed to teach c pointers. \cite{Yassine2017}\footnote{ This journal gives a level 1 publication point 
-\url{https://dbh.nsd.uib.no/publiseringskanaler/KanalTidsskriftInfo.action?id=470751&bibsys=false}}
-
-
-\subsection{Cognitive Training}
-The idea of training general cognitive ability is very attractive.  It would be wonderful to find an activity or exersice that could strengthen a wide range of cognitive abilities.  This area is looking for the cognitive equivalent of Cardiovascular fitness.  Are there activities that result in improved performance across all mental tasks. 
-
-Lumosity claims to be able to improve general cognitive ability.  There has been court cases showing that the evidence presented is not as scientifically sound as it should be.  We will review this area of games for cognitive training using two papers:
-Portal 2 being better than Lumosity \cite{shute2015}\footnote{URL \url{https://www.sciencedirect.com/science/article/pii/S0360131514001869}} and Lumosity for brain training \cite{hardy2015}
-
-
-
-
-\section{Prototype / Literature review}
-
-If you have a prototype that you have implemented you should discuss the prototype, its results and the discussion of what it shows about the area of serious games.
-
-If you have a literature review you need to describe the process by which you found papers and the way you narrowed the search to a smaller set of papers to review.  This would include the framework you where using to assess the papers.
-
-
-\section{Discussion}
-
-Discuss the results of your investigations and what they mean for serious games.
-
-\section{Reflection on Learning}
-
-What have you learnt during the course and from the research you have conducted for this report.
-
-This should included reflections on any assumption that might have been questioned, approaches to research, or understanding about the use of games.
-
-
-\section{Future Work}
-
-If you were to continue this area what would be the interesting directions for future research. 
-
-\section{Conclusion}
-Summarise the main point of the report
-
+\input{ReportComponents/Introduction.tex}
+\input{ReportComponents/Background.tex}
+\input{ReportComponents/ReviewedPapers.tex}
+\input{ReportComponents/LiteratureReview.tex}
+\input{ReportComponents/Discussion.tex}
+\input{ReportComponents/Reflection.tex}
+\input{ReportComponents/FutureWork.tex}
+\input{ReportComponents/Conclusion.tex}
 
 \bibliography{IMT4307}
 \bibliographystyle{ieeetr}
